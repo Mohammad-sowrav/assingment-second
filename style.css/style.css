@@ -1,0 +1,414 @@
+ @import url('https://fonts.googleapis.com/css2?family=Brygada+1918:wght@500&family=Lato&family=Open+Sans&family=Poppins&family=Roboto:ital,wght@0,300;1,300&family=Work+Sans&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+    list-style: none;
+    font-family: 'Work Sans', sans-serif;;
+} 
+/* header section design start */
+.container{
+    background: rgba(255, 144, 14, 0.1);
+    padding-top: 63px;
+     
+}
+.sub-container{
+    display:flex;
+   justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0 20px;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+}
+nav ul{
+    display: flex;
+    gap: 30px;
+    
+    
+}
+nav  a{
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 18px;
+    color: #424242;
+
+    
+}
+.second-sub-container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    width: 50%;
+    padding-top: 5%;
+   text-align: center;
+    
+    
+}
+.second-title{
+    
+    font-weight: 700;
+    font-size: 64px;
+    color: #131313;
+
+}
+.second-discription{
+    margin-top: 10px;
+    font-weight: 400;
+    font-size: 16px;
+    color:  #727272;
+}
+ .second-button{
+    padding: 21px 25px;
+    color: #FFFFFF;
+    background: #FF900E;
+    font-weight: 600;
+    font-size: 20px;
+    border-radius: 8px;
+    border-style: none;
+    width: 30%;
+    margin: 30px auto;
+   
+} 
+.second-sub-container-img{
+    display: grid;
+    margin: 0 auto;
+}
+.second-sub-container-img, img{
+    width: 90%;
+    margin-right: 0px;
+    padding-bottom: 15px;
+}
+/* main section desing  */
+.main{
+    
+    margin: 85px auto 0 auto;
+    width: 82%;
+    
+    
+}
+.fatures-gallery{
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+    gap: 73px;
+    margin-left: 10%;
+    
+}
+.fatures-allbam{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+    
+
+}
+.fatures-about{
+    margin-top: 8em;
+    padding-right: 20%;
+    width: 60%;
+    
+}
+/* love and enjoy section start  */
+    .section-enjoy{
+        display: flex;
+        gap: 10%;
+        margin-top: 50px;
+        height: auto;
+        
+
+    }
+    .enjoy-about{
+        display: flex;
+        flex-direction: column;
+        width: 45%;
+    }
+    .aside-hrline{
+        padding-top: 50px;
+        display: flex;
+        
+        
+    }
+    .aside-hrline h1{
+        font-weight: 700;
+        font-size: 45px;
+        color: #131313;
+        margin-bottom: 24px;
+    }
+
+    .aside-hrline div{
+        border: 1px solid black;
+        width: 5px;
+        height: 100px;
+        background-color: #FF900E;
+        border-style: none  ;
+        margin-right: 23px;
+    }
+    .enjoy-description{
+        font-weight: 400;
+        font-size: 16px;
+        color:#727272;
+        
+    }
+
+.enjoy-descritption-one{
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+    padding: 20px 30px;
+    margin-top: 20px;
+}
+.enjoy-descritption-one h3{
+    color: #131313;
+    margin-bottom: 5px;
+}
+    .enjoy-img{
+    
+        width: 53%;
+        position: relative;
+    }
+    .enjoy-img img{
+       width: 100%;
+       object-fit: cover;
+       height: 98%;
+       border-radius: 8px;
+    }
+    .enjoy-button{
+        position: absolute;
+        top: 97%;
+        left: 0%;
+        transform: translate(-50%, -50%);
+        background-color: #FF900E;
+        color: white;
+        font-size: 16px;
+        padding: 12px 24px;
+        border: none;
+        border-radius: 5px;
+        text-align: center;
+       
+        
+    }
+/* love and enjoy section end  */
+
+ /* facts title and success details start */
+
+.facts{
+    display: grid;
+    
+}
+.quick{
+    color: #727272;
+    
+}
+.second-quick{
+    color: #FF900E;
+}
+.facts-success{
+    display: flex;
+    gap: 3%;
+}
+.facts-title h1{
+    color: #131313;
+    font-weight: 700;
+    font-size: 45px;
+    margin-top: 50px;
+}
+.facts-description{
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    margin-bottom: 20px;
+    margin-top: 24px;
+    
+}
+
+.facts-awards{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 36px 15px 58px 15px;
+    width: 22%;
+    border-radius: 8px;
+    border: 1px solid #FF900E;
+    margin-top: 60px;
+    
+    
+    
+}
+.facts-success :hover{
+    background: #131313;
+    color: white;
+    transition-duration: 1.5s;
+    
+
+}
+.awards-img{
+    margin: 0 auto;
+}
+/*  Our Sponspors section design start */
+.our-sponspors{
+    display: flex;
+    flex-direction: column;
+    margin-top: 80px;
+
+}
+.sopns-about{
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+.sopns-about h1{
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+    margin-bottom: 15px;
+}
+.spons-logo{
+    display: grid;
+    gap: 50px;
+    grid-template-columns: repeat(5, 1fr);
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    
+}
+
+.spons-logo img{
+    background-image: linear-gradient(to right, #bec8cc, #cdd8d7);
+    padding: 5px 2px;
+    border-radius: 10px;
+}
+/* skill bar design */
+        .progress {
+                
+				display: flex;
+                flex-direction: column;
+                margin-top: 40px;
+                
+               
+                
+			}
+            .progress p{
+                text-align: center;
+                font-weight:900;
+                font-size: 50px;
+                color: cornflowerblue;
+                margin-bottom: 40px;
+            }
+            .progress h1{
+                margin: 0 auto;
+                color: #FF900E;
+            }
+			
+			.progress-bar {
+                width: 50%;
+                background-color:blue;
+                padding: 8px;
+                border-radius: 3px;
+                box-shadow: inset 0 88px 3px rgb(255 1 0 / 20%);
+                margin: 0 auto;
+            }
+			
+			
+			.progress-bar-fill {
+				display: block;
+				height: 22px;
+				background-color: red;
+				border-radius: 3px;
+				
+				transition: width 500ms ease-in-out;
+			}
+/* footer section design */
+.section-footer{
+    margin-top: 60px;
+    padding: 20px 0px;
+    background-color: #FFF4E7;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+.section-footer p{
+    text-align: center;
+    color: #424242;
+}
+
+        /*  <!-- facts title and success details end --> */
+@media screen and (max-width:576px){
+
+    .second-sub-container-img{
+        flex-direction: column;
+    }
+    .fatures-gallery{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .fatures-allbam{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .sub-container{
+        flex-direction: column;
+        width: 100%;
+        margin: 0 0p;
+        padding-left: 0px;
+        padding-right: 0px;
+        text-align: center;
+    }
+    .second-title{
+        font-size: 38px;
+    }
+    .sub-container ul{
+        flex-direction: column;
+        margin-top: 20px;
+    }
+
+    .second-sub-container{
+        width: 90%;
+    }
+   
+    .second-button{
+        width: auto;
+    }
+    .fatures-about{
+        margin-top: 1em;
+    }
+    .facts{
+        display: flex;
+        flex-direction: column;
+
+    }
+    .facts-success{
+        flex-direction: column;
+        margin: 0 auto;
+    }
+    .facts-awards{
+        width: auto ;
+    }
+    .section-enjoy{
+        flex-direction: column;
+    }
+    .enjoy-about{
+        width: auto;
+    }
+    .aside-hrline h1{
+        font-size: 32px;
+       
+    }
+    
+    .enjoy-img{
+        margin-top: 30px;
+        width: auto;
+    }
+    .enjoy-button{
+        margin-left: 50%;
+        
+
+    }
+    .sopns-about{
+        width: 100%;
+    }
+    .spons-logo{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .progress-bar{
+        width: 80%;
+    }
+    
+   
+
+    
+}
